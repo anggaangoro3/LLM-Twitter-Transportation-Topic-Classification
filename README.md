@@ -44,7 +44,7 @@ Berdasarkan eksperimen yang dilakukan, berikut adalah perbandingan akurasi dari 
 
 | Peringkat | Model | Tipe | Akurasi | Keterangan |
 | :---: | :--- | :--- | :---: | :--- |
-| 🥇 | **CNN-ID** | Deep Learning | **97.5%** | Model Terbaik (Mampu menangkap fitur lokal teks) |
+| 🥇 | **CNN-1D** | Deep Learning | **97.5%** | Model Terbaik (Mampu menangkap fitur lokal teks) |
 | 🥈 | **BiLSTM** | Deep Learning | **95.9%** | Baik dalam menangkap konteks urutan kata |
 | 🥉 | **Logistic Regression**| Machine Learning | **95.0%** | Baseline yang kuat dan efisien |
 | 4 | **Multinomial Naive Bayes**| Machine Learning | **86.1%** | Performa terendah dalam eksperimen ini |
@@ -67,5 +67,4 @@ llm-twitter-transportation-topic-classification/
 │
 ├── 📄 kamus.txt                         # Daftar kata dasar untuk stemming/validasi
 ├── 📄 slang.csv                         # Kamus normalisasi bahasa gaul
-├── 📄 LAPORAN UAS...pdf                 # Laporan lengkap proyek (PDF)
 └── 📄 README.md                         # Dokumentasi proyek ini
